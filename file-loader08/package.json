@@ -1,0 +1,30 @@
+{
+  "name": "file-loader08",
+  "version": "1.0.0",
+  "description": "file-loader 用于处理文件\r ``` javascript\r const path = require('path');\r module.exports={\r     entry: './src/index.js',\r     output: {\r         filename: 'bundle.js',\r         path: path.resolve(__dirname,'dist')\r     },\r     module: {\r         rules: [\r             {\r                 test: /\\.(png|svg|jpg|gif)$/,\r                 use: [\r                     'file-loader'\r                 ]\r             }\r         ]\r     }\r }",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
