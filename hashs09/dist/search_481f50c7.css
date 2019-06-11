@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SourceHanSerifSC-Heavy';
+  src: url(55e5e80c409f730f0831b06ca3cc3e7a.otf) format('trutype');
+}
+.search-text {
+  font-size: 20px;
+  color: red;
+  font-family: 'SourceHanSerifSC-Heavy';
+}
+
